@@ -1,0 +1,32 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "reset";
+
+// Breakpoints 
+
+$shaker: new-breakpoint(max-width 480px 1); // Use 2 columns on small screens
+$rattler: new-breakpoint(min-width 481px max-width 991px 6); // Use 4 columns on middle sized screens
+$roller: new-breakpoint(min-width 992px 12); // Use 8 columns on big screens
+
+.page {
+  @include outer-container;
+  @include media($rattler) {
+    @include pad();
+  }
+  @include media($shaker) {
+    @include pad();
+  }
+}
+
+body {
+  background: none;
+}
+
+.header-container {
+  @include span-columns(12);
+}
+
+h1.logo {
+  @include hide-text;
+  background-image: url(../images/logo-small.png);
+}
