@@ -35,11 +35,11 @@
                 <?php echo $this->getLogoAlt() ?>
             </a>
         </h1>
-        <div class="quick-access">
-            <?php echo $this->getChildHtml('topSearch') ?>
+        <nav class="quick-access">
             <?php echo $this->getChildHtml('topLinks') ?>
             <?php echo $this->getChildHtml('store_language') ?>
-        </div>
+        </nav>
+        <?php echo $this->getChildHtml('topSearch') ?>
         <?php echo $this->getChildHtml('topContainer'); ?>
     </div>
 </div>
