@@ -640,3 +640,27 @@ ul.links a {
 ul.links a:hover {
   background: #efefef;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000368}}
+.searchBar {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/neat\/grid\/_grid\.scss}line{font-family:\0000362}}
+.searchBar:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000373}}
+.form-search {
+  background: #efefef;
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000378}}
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
+  border: 1px solid green;
+}
