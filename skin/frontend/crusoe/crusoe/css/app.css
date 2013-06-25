@@ -466,4 +466,7 @@ h1.logo {
   color: transparent;
   font: 0/0 a;
   text-shadow: none;
-  background-image: url(../images/logo-small.png); }
+  background-image: url(../images/logo-small.png);
+  height: 84px;
+  width: 251px;
+  float: left; }
