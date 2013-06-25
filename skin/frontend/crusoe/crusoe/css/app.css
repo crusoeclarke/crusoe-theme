@@ -547,6 +547,22 @@ a:hover {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000324}}
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
+  border: 0;
+  background: #efefef;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000329}}
+input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover {
+  background: yellow;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000333}}
+input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
+  background: red;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000337}}
 .page {
   *zoom: 1;
   max-width: 77.5em;
@@ -563,19 +579,19 @@ a:hover {
   clear: both;
 }
 @media screen and (min-width: 481px) and (max-width: 991px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000337}}
   .page {
     padding: 2.35765%;
   }
 }
 @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000337}}
   .page {
     padding: 2.35765%;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000347}}
 .header-container {
   display: block;
   float: left;
@@ -587,7 +603,7 @@ a:hover {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000351}}
 h1.logo {
   background-color: transparent;
   border: 0;
@@ -607,7 +623,7 @@ h1.logo:last-child {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000359}}
 .quick-access {
   display: block;
   float: left;
@@ -620,15 +636,15 @@ h1.logo:last-child {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000364}}
 ul.links {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000366}}
 ul.links li {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000369}}
 ul.links a {
   padding: 10px 20px;
   background: #dddddd;
@@ -636,12 +652,12 @@ ul.links a {
   -moz-box-shadow: 1px 1px 0px rgba(155, 155, 155, 0.7);
   box-shadow: 1px 1px 0px rgba(155, 155, 155, 0.7);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000375}}
 ul.links a:hover {
   background: #efefef;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000381}}
 .searchBar {
   display: block;
   float: left;
@@ -654,13 +670,144 @@ ul.links a:hover {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000373}}
-.form-search {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000387}}
+.form-search label, .form-search input {
   background: #efefef;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000378}}
-input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
-  border: 1px solid green;
+/********** Navigation */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\0000398}}
+#nav {
+  width: 918px;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-size: 13px;
 }
+
+/* All Levels */
+/* Style consistent throughout all nav levels */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003101}}
+#nav li {
+  position: relative;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003102}}
+#nav li.over {
+  z-index: 998;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003104}}
+#nav a,
+#nav a:hover {
+  display: block;
+  line-height: 1.3em;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003105}}
+#nav span {
+  display: block;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003106}}
+#nav li ul span {
+  white-space: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003108}}
+#nav ul li.parent li a {
+  background-image: none;
+}
+
+/* 0 Level */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003111}}
+#nav li {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003112}}
+#nav li.active a {
+  color: #d96708;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003113}}
+#nav a {
+  float: left;
+  padding: 5px 12px 6px 8px;
+  color: #a7c6dd;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003115}}
+#nav li.over a,
+#nav a:hover {
+  color: #d96708;
+}
+
+/* 1st Level */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003119}}
+#nav ul li,
+#nav ul li.active {
+  float: none;
+  margin: 0;
+  padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003120}}
+#nav ul li.last {
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003123}}
+#nav ul a,
+#nav ul a:hover {
+  float: none;
+  padding: 0;
+  background: none;
+}
+
+/* 2nd Level */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003128}}
+#nav ul,
+#nav div {
+  position: absolute;
+  width: 15em;
+  top: 27px;
+  left: -10000px;
+  border: 1px solid #899ba5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003129}}
+#nav div ul {
+  position: static;
+  width: auto;
+  border: none;
+}
+
+/* 3rd+ Level */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003133}}
+#nav ul ul,
+#nav ul div {
+  top: 5px;
+}
+
+/* Show menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003144}}
+#nav li ul.shown-sub,
+#nav li div.shown-sub {
+  left: 0;
+  z-index: 999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/JOE\/Sites\/magento\/skin\/frontend\/crusoe\/crusoe\/css\/sass\/app\.scss}line{font-family:\00003146}}
+#nav li .shown-sub ul.shown-sub,
+#nav li .shown-sub li div.shown-sub {
+  left: 100px;
+}
+
+/********** Navigation > */
+/* ======================================================================================= */
