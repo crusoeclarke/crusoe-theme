@@ -34,7 +34,7 @@ a {
   background: #ccc;
 }
 
-div[class*='-container'] {
+div[class*='-container'], nav[class*='-container'] {
   @include outer-container;
     @include media($rattler) {
     @include pad();
@@ -89,16 +89,50 @@ ul.links {
     padding: 5px 10px;
   }
 }
+// Navigation New
+
+.nav-container {  
+
+}
+
+
+#nav {
+  a { 
+    padding: 10px 20px; 
+    background: $gray-l; 
+    color: $orange-l;
+    &:hover {
+      background: $gray-m;
+    }
+  }
+  ul li, li.active {
+    display: block;
+  }
+  ul, div {             // 2nd Level
+    background: $gray-l;
+    position: absolute;
+    top: 24px;
+    left:-10000px;
+    padding: 0;
+  }
+  ul a {
+    padding: 10px 20px;
+  }
+  ul ul, ul div {
+    top: -16px;
+  }
+  li .shown-sub ul.shown-sub, li .shown-sub li div.shown-sub {
+    left: 118px;
+  }
+}
 
 
 // Navigation old styles
 
 /********** Navigation */
-.nav-container {  }
-#nav { width:918px; margin:0 auto; padding:0 16px; font-size:13px; }
 
 /* All Levels */ /* Style consistent throughout all nav levels */
-#nav li { position:relative; text-align:left; }
+#nav li { position:relative; text-align:left; display: inline-block;}
 #nav li.over { z-index:998; }
 #nav a,
 #nav a:hover { display:block; line-height:1.3em; text-decoration:none; }
@@ -108,29 +142,22 @@ ul.links {
 #nav ul li.parent li a { background-image:none; }
 
 /* 0 Level */
-#nav li { float:left; }
+#nav li { }
 #nav li.active a { color:#d96708; }
-#nav a { float:left; padding:5px 12px 6px 8px; color:#a7c6dd; font-weight:bold; }
 #nav li.over a,
 #nav a:hover { color:#d96708; }
 
 /* 1st Level */
-#nav ul li,
-#nav ul li.active { float:none; margin:0; padding-bottom:1px; }
+
 #nav ul li.last {  padding-bottom:0; }
 
-#nav ul a,
-#nav ul a:hover { float:none; padding:0; background:none; }
-#nav ul li a {  }
 
 /* 2nd Level */
-#nav ul,
-#nav div { position:absolute; width:15em; top:27px; left:-10000px; border:1px solid #899ba5; }
+
 #nav div ul { position:static; width:auto; border:none; }
 
 /* 3rd+ Level */
 #nav ul ul,
-#nav ul div { top:5px; }
 
 #nav ul li a {  }
 #nav ul li a:hover {  }
@@ -142,12 +169,6 @@ ul.links {
 /* Show menu */
 #nav li ul.shown-sub,
 #nav li div.shown-sub { left:0; z-index:999; }
-#nav li .shown-sub ul.shown-sub,
-#nav li .shown-sub li div.shown-sub { left:100px; }
-/********** Navigation > */
-/* ======================================================================================= */
-
-
 
 
 
