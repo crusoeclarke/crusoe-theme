@@ -27,16 +27,16 @@ a {
 }
 
 #{$all-text-inputs-hover} { // Target the :hover pseudo-class
-  background: yellow;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 
 #{$all-text-inputs-focus} { // Target the :focus pseudo-class
-  background: red;
+  background: #ccc;
 }
 
-.page {
+div[class*='-container'] {
   @include outer-container;
-  @include media($rattler) {
+    @include media($rattler) {
     @include pad();
   }
   @include media($shaker) {
@@ -45,10 +45,10 @@ a {
 }
 
 .header-container {
-  @include span-columns(12);
+  @include outer-container;
 }
 
-h1.logo {
+h1.logo a {
   @include hide-text;
   background-image: url(../images/logo-small.png);
   background-repeat: no-repeat;
