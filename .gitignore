@@ -22,3 +22,10 @@ install.php
 mage
 php.ini.sample
 .sass-cache
+adminhtml
+install
+etc
+locale
+.Mage.php
+base
+default
